@@ -1,0 +1,14 @@
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/bin/iPhoneSimulator/Debug/phoneword.iOS.exe
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/bin/iPhoneSimulator/Debug/phoneword.iOS.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/bin/iPhoneSimulator/Debug/phoneword.dll
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/bin/iPhoneSimulator/Debug/phoneword.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/phoneword.iOS.csprojResolveAssemblyReference.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/phoneword.iOS.csproj.CoreCompileInputs.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/phoneword.iOS.exe
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/iOS/obj/iPhoneSimulator/Debug/phoneword.iOS.pdb

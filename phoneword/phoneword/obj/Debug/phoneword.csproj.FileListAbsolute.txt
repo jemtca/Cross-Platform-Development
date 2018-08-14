@@ -1,0 +1,6 @@
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/phoneword/bin/Debug/phoneword.dll
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/phoneword/bin/Debug/phoneword.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/phoneword/obj/Debug/phoneword.csprojResolveAssemblyReference.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/phoneword/obj/Debug/phoneword.csproj.CoreCompileInputs.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/phoneword/obj/Debug/phoneword.dll
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/phoneword/obj/Debug/phoneword.pdb
