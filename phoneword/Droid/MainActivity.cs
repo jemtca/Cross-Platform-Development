@@ -1,13 +1,16 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
+using Android.Content;
+using Android.Runtime;
+using Android.Views;
 using Android.Widget;
 using Android.OS;
 
 namespace phoneword.Droid
 {
-    [Activity(Label = "phoneword", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Phone Word", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        int count = 1;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -16,12 +19,24 @@ namespace phoneword.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
+            // Get our UI controls from the loaded layout
+            EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
+            TextView translatedPhoneWord = FindViewById<TextView>(Resource.Id.TranslatedPhoneWord);
+            Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
 
-            button.Click += delegate { button.Text = $"{count++} clicks!"; };
+            // Add code to translate number
+            string translatedNumber = string.Empty;
+
+            translateButton.Click += (IntentSender, e) =>
+            {
+                // Translate user's alphanumeric phonenumber to numeric
+                translatedNumber = PhonewordTranslator.ToNumber(phoneNumberText.Text);
+                if (string.IsNullOrWhiteSpace(translatedNumber))
+                    translatedPhoneWord.Text = string.Empty;
+                else
+                    translatedPhoneWord.Text = translatedNumber;
+            };
+
         }
     }
 }
-

@@ -1,11 +1,5 @@
-﻿<Properties StartupConfiguration="{14A9B965-D43C-4E7D-85AB-AB0CDA514D62}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/PhoneTranslator.cs">
-    <Files>
-      <File FileName="iOS/Main.storyboard" />
-      <File FileName="iOS/PhoneTranslator.cs" Line="60" Column="1" />
-      <File FileName="iOS/ViewController.cs" Line="13" Column="43" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{DC835440-CD92-408E-8D7C-E2CAEE444E6C}|Default">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -14,5 +8,6 @@
   <MonoDevelop.Ide.ItemProperties.phoneword.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0581302B-D788-4E11-A54B-7F70F776E3BC">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.phoneword.iOS>
+  <MonoDevelop.Ide.ItemProperties.phoneword.Droid AndroidDesignerPreferredDevice="pixel" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MultiItemStartupConfigurations />
 </Properties>

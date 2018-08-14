@@ -27,8 +27,17 @@ namespace phoneword.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7F010003
+			public const int PhoneNumberText = 2130771971;
+			
 			// aapt resource value: 0x7F010002
-			public const int myButton = 2130771970;
+			public const int textView = 2130771970;
+			
+			// aapt resource value: 0x7F010004
+			public const int TranslateButton = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int TranslatedPhoneWord = 2130771973;
 			
 			static Id()
 			{
