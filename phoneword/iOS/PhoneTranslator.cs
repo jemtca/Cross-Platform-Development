@@ -7,22 +7,21 @@ namespace phoneword.iOS
     {
         public static string ToNumber (string raw)
         {
-            if (string.IsNullOrWhiteSpace(raw)) {
+            if (string.IsNullOrWhiteSpace(raw))
                 return "";
-            } else {
+            else
                 raw = raw.ToUpperInvariant();
-            }
 
             var newNumber = new StringBuilder();
             foreach (var c in raw)
             {
-                if (" -0123456789".Contains(c)) {
+                if (" -0123456789".Contains(c))
                     newNumber.Append(c);
-                } else {
+                else
+                {
                     var result = TranslateToNumber(c);
-                    if (result != null) {
+                    if (result != null)
                         newNumber.Append(result);
-                    }
                 }
                 // otherwise we've skipped a non-numeric char
             }
@@ -34,26 +33,25 @@ namespace phoneword.iOS
             return KeyString.IndexOf(c) >= 0;
         }
 
-        static int? TranslateToNumber (char c) {
-            if ("ABC".Contains(c)) {
+        static int? TranslateToNumber (char c)
+        {
+            if ("ABC".Contains(c))
                 return 2;
-            } else if ("DEF".Contains(c)) {
+            else if ("DEF".Contains(c))
                 return 3;
-            } else if("GHI".Contains(c)) {
+            else if ("GHI".Contains(c))
                 return 4;
-            } else if ("JKL".Contains(c)) {
+            else if ("JKL".Contains(c))
                 return 5;
-            } else if ("MNO".Contains(c)) {
+            else if ("MNO".Contains(c))
                 return 6;
-            } else if ("PQRS".Contains(c)) {
+            else if ("PQRS".Contains(c))
                 return 7;
-            } else if ("TUV".Contains(c)) {
+            else if ("TUV".Contains(c))
                 return 8;
-            } else if ("WXYZ".Contains(c)){
+            else if ("WXYZ".Contains(c))
                 return 9;
-            }
             return null;
         }
-
     }
 }

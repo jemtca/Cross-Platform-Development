@@ -5,8 +5,7 @@ namespace phoneword.Droid
 {
     public static class PhonewordTranslator
     {
-
-        public static string ToNumber(string raw)
+        public static string ToNumber (string raw)
         {
             if (string.IsNullOrWhiteSpace(raw))
                 return "";
@@ -29,12 +28,12 @@ namespace phoneword.Droid
             return newNumber.ToString();
         }
 
-        static bool Contains(this string keyString, char c)
+        static bool Contains (this string KeyString, char c)
         {
-            return keyString.IndexOf(c) >= 0;
+            return KeyString.IndexOf(c) >= 0;
         }
 
-        static int? TranslateToNumber(char c)
+        static int? TranslateToNumber (char c)
         {
             if ("ABC".Contains(c))
                 return 2;
