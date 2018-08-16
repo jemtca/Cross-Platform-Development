@@ -17,7 +17,7 @@ namespace phoneword.Droid
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Droid.Resource.Layout.Main);
 
             // Get our UI controls from the loaded layout
             EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);

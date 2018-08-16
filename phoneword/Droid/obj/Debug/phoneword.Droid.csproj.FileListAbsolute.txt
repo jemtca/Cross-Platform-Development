@@ -4,6 +4,7 @@
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/bin/Debug/ca.xamarin.phoneword-Signed.apk
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/bin/Debug/phoneword.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/bin/Debug/phoneword.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/phoneword.Droid.csprojResolveAssemblyReference.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/phoneword.Droid.csproj.CoreCompileInputs.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/phoneword.Droid.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/phoneword.Droid.pdb
@@ -18,7 +19,6 @@
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/R.cs.flag
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/R.txt
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/uploadflags.txt
-/Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/phoneword.Droid.csprojResolveAssemblyReference.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/bin/Debug/Mono.Android.pdb
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/linksrc/phoneword.Droid.pdb
 /Users/omaiga/Documents/dev/VisualStudioProjects/phoneword/Droid/obj/Debug/linksrc/Mono.Android.pdb

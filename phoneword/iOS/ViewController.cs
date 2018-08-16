@@ -21,7 +21,7 @@ namespace phoneword.iOS
             {
                 // Convert the phone number with text to a number
                 // using PhoneTranslator.cs
-                translatedNumber = PhoneTranslator.ToNumber(PhoneNumberText.Text);
+                translatedNumber = PhonewordTranslator.ToNumber(PhoneNumberText.Text);
 
                 // Dismiss the keyboard if text field was tapped
                 PhoneNumberText.ResignFirstResponder();
