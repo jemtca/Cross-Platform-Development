@@ -1,0 +1,2 @@
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.csprojResolveAssemblyReference.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.csproj.CoreCompileInputs.cache

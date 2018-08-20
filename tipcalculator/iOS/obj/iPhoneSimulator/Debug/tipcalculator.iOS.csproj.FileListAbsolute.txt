@@ -1,0 +1,14 @@
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/bin/iPhoneSimulator/Debug/tipcalculator.iOS.exe
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/bin/iPhoneSimulator/Debug/tipcalculator.iOS.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/bin/iPhoneSimulator/Debug/tipcalculator.dll
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/bin/iPhoneSimulator/Debug/tipcalculator.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/tipcalculator.iOS.csprojResolveAssemblyReference.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/tipcalculator.iOS.csproj.CoreCompileInputs.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/tipcalculator.iOS.exe
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/iOS/obj/iPhoneSimulator/Debug/tipcalculator.iOS.pdb

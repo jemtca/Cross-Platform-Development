@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{B0F2BEE2-344B-4225-B57A-DAF8D61998EC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewController.cs">
+    <Files>
+      <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/ViewController.cs" Line="59" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.tipcalculator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0581302B-D788-4E11-A54B-7F70F776E3BC" automaticSigning="False" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.tipcalculator.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+  <MultiItemStartupConfigurations />
+</Properties>
