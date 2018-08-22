@@ -28,22 +28,19 @@ namespace tipcalculator.Droid
 		{
 			
 			// aapt resource value: 0x7F010002
-			public const int billTextView = 2130771970;
-			
-			// aapt resource value: 0x7F010006
-			public const int seekBar1 = 2130771974;
-			
-			// aapt resource value: 0x7F010005
-			public const int tipEditText = 2130771973;
-			
-			// aapt resource value: 0x7F010004
-			public const int tipTextView = 2130771972;
+			public const int billEditText = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int totalEditText = 2130771971;
+			public const int slider = 2130771971;
 			
-			// aapt resource value: 0x7F010007
-			public const int totalTextView = 2130771975;
+			// aapt resource value: 0x7F010004
+			public const int slideTextView = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int tipTextView = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int totalTextView = 2130771974;
 			
 			static Id()
 			{

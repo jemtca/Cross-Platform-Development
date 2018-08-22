@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{B0F2BEE2-344B-4225-B57A-DAF8D61998EC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewController.cs">
+﻿<Properties StartupConfiguration="{F1D54AA8-2ADC-4C9E-B7D5-4CD4AFE3DE6D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.storyboard">
     <Files>
       <File FileName="iOS/Main.storyboard" />
-      <File FileName="iOS/ViewController.cs" Line="59" Column="1" />
+      <File FileName="iOS/ViewController.cs" Line="49" Column="66" />
+      <File FileName="Droid/MainActivity.cs" Line="35" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,6 +12,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.tipcalculator.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.tipcalculator.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MultiItemStartupConfigurations />
 </Properties>
