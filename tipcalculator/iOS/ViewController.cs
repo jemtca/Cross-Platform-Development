@@ -14,42 +14,40 @@ namespace tipcalculator.iOS
         {
             base.ViewDidLoad();
 
+            TipCalculator tc = new TipCalculator();
+
             // Perform any additional setup after loading the view, typically from a nib.
 
             billTextField.BecomeFirstResponder();
 
-            // updating tip and total text field when the user type an amount
+            // updating tip and total text label when the user type an amount
             billTextField.AddTarget((object sender, EventArgs e) =>
             {
                if (string.IsNullOrEmpty(billTextField.Text))
                {
-                    tipLabel.Text = "0.00";
-                    totalLabel.Text = "0.00";
+                    tipLabel.Text = tc.DefaultValues();
+                    totalLabel.Text = tc.DefaultValues();
                 }
                 else
                 {
-                    tipLabel.Text = string.Format("{0:N2}", float.Parse(billTextField.Text) * (slider.Value / 100));
-                    totalLabel.Text = string.Format("{0:N2}", (float.Parse(tipLabel.Text) + float.Parse(billTextField.Text)));
+                    tipLabel.Text = tc.CalculatingTip(billTextField.Text, slider.Value);
+                    totalLabel.Text = tc.CalculatingTotal(tipLabel.Text, billTextField.Text);
                 }
             }, UIControlEvent.EditingChanged);
 
-            // updating tip and total text field when the user make use of the slider
+            // updating tip and total text label when the user make use of the slider
             slider.ValueChanged += (object sender, EventArgs e) =>
             {
-                int percentage = (int)(slider.Value);
-                sliderPercentage.Text = string.Format("{0}%", percentage);
+                sliderPercentage.Text = tc.ChangingPercentageNumber(slider.Value);
 
                 if (string.IsNullOrEmpty(billTextField.Text))
                 {
-                    tipLabel.Text = "0.00";
-                    totalLabel.Text = "0.00";
+                    tipLabel.Text = tc.DefaultValues();
+                    totalLabel.Text = tc.DefaultValues();
                 }
                 else{
-                    float tip = (float.Parse(billTextField.Text) * (int)(slider.Value)) / 100;
-                    tipLabel.Text = string.Format("{0:N2}", tip);
-
-                    float total = float.Parse(billTextField.Text) + float.Parse(tipLabel.Text);
-                    totalLabel.Text = string.Format("{0:N2}", total);
+                    tipLabel.Text = tc.CalculatingTip(billTextField.Text, slider.Value);
+                    totalLabel.Text = tc.CalculatingTotal(tipLabel.Text, billTextField.Text); // !
                 }
 
             };

@@ -1,6 +1,5 @@
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/tipcalculator/bin/Debug/tipcalculator.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/tipcalculator/bin/Debug/tipcalculator.pdb
-/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/tipcalculator/obj/Debug/tipcalculator.csprojResolveAssemblyReference.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/tipcalculator/obj/Debug/tipcalculator.csproj.CoreCompileInputs.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/tipcalculator/obj/Debug/tipcalculator.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/tipcalculator/obj/Debug/tipcalculator.pdb

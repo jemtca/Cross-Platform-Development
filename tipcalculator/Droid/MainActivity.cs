@@ -13,6 +13,8 @@ namespace tipcalculator.Droid
         {
             base.OnCreate(savedInstanceState);
 
+            TipCalculator tc = new TipCalculator();
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
@@ -24,40 +26,37 @@ namespace tipcalculator.Droid
             TextView tipTextView = FindViewById<TextView>(Resource.Id.tipTextView);
             TextView totalTextView = FindViewById<TextView>(Resource.Id.totalTextView);
 
+            // updating tip and total text view when the user type an amount
             billTextField.TextChanged += (object sender, Android.Text.TextChangedEventArgs e) => 
             {
                 if (string.IsNullOrEmpty(billTextField.Text))
                 {
-                    tipTextView.Text = "0.00";
-                    totalTextView.Text = "0.00";
+                    tipTextView.Text = tc.DefaultValues();
+                    totalTextView.Text=  tc.DefaultValues();
                 }
                 else{
-                    tipTextView.Text = string.Format("{0:N2}", float.Parse(billTextField.Text) * ((float)slider.Progress / 100)); // int to float, otherwise I'll get 0 anytime
-                    totalTextView.Text = string.Format("{0:N2}", (float.Parse(tipTextView.Text) + float.Parse(billTextField.Text)));
+                    tipTextView.Text = tc.CalculatingTip(billTextField.Text, slider.Progress); // !
+                    totalTextView.Text = tc.CalculatingTotal(tipTextView.Text, billTextField.Text);
                 }
             };
 
+            // updating tip and total text view when the user make use of the slider
             slider.ProgressChanged +=(object sender, SeekBar.ProgressChangedEventArgs e) =>
             {
-                int percentage = slider.Progress;
-                sliderTextView.Text = string.Format("{0}%", percentage);
+                sliderTextView.Text = tc.ChangingPercentageNumber(slider.Progress);
 
                 if (string.IsNullOrEmpty(billTextField.Text))
                 {
-                    tipTextView.Text = "0.00";
-                    totalTextView.Text = "0.00";
+                    tipTextView.Text = tc.DefaultValues();
+                    totalTextView.Text = tc.DefaultValues();
                 }
                 else
                 {
-                    float tip = (float.Parse(billTextField.Text) * (slider.Progress)) / 100;
-                    tipTextView.Text = string.Format("{0:N2}", tip);
-
-                    float total = float.Parse(billTextField.Text) + float.Parse(tipTextView.Text);
-                    totalTextView.Text = string.Format("{0:N2}", total);
+                    tipTextView.Text = tc.CalculatingTip(billTextField.Text, slider.Progress); // !
+                    totalTextView.Text = tc.CalculatingTotal(tipTextView.Text, billTextField.Text);
                 }
                            
             };
         }
     }
 }
-

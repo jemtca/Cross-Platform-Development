@@ -1,11 +1,11 @@
-/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.csprojResolveAssemblyReference.cache
-/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.csproj.CoreCompileInputs.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/bin/Debug/tipcalculator.Droid.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/bin/Debug/tipcalculator.Droid.pdb
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/bin/Debug/ca.xamarin.tipcalculator.apk
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/bin/Debug/ca.xamarin.tipcalculator-Signed.apk
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/bin/Debug/tipcalculator.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/bin/Debug/tipcalculator.pdb
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.csprojResolveAssemblyReference.cache
+/Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.csproj.CoreCompileInputs.cache
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.dll
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/tipcalculator.Droid.pdb
 /Users/omaiga/Documents/dev/VisualStudioProjects/tipcalculator/Droid/obj/Debug/android/bin/ca.xamarin.tipcalculator.apk
